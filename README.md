@@ -10,18 +10,10 @@ This project includes:
   - HTML
   - CSS
 
-### MEMBERS-
-AJAY PRAKASH
-<br />
-VASU GOEL
-<br />
-PRATHAM GUPTA
-<br />
-RISHI RAJ JAIN
-<br />
-KARTIKAY SAPRA
-
-
-
-### This project was made for HackiT held in IIITD, on 3rd May 2019.
-# RemoteVGAController
+Team Members:
+ - Ajay Prakash
+ - Vasu Goel
+ - Pratham Gupta
+ - Rishi Raj Jain
+ - Kartikay Sapra
+# This project was made for HackiT held in IIITD, on 3rd May 2019.
