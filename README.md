@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # RemoteVGAController
 
 A platform independent screening software, which supports live streaming and audio playing. <br />
@@ -25,6 +24,4 @@ KARTIKAY SAPRA
 
 
 ### This project was made for HackiT held in IIITD, on 3rd May 2019.
-=======
 # RemoteVGAController
->>>>>>> 82944ff0f7bcfddbfb9bb82571cf72be43572c51
