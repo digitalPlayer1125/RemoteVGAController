@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ShareScreen</title>
+        <style>
+            body {
+            font-family: Arial;
+            color: #ECF0F1;
+            }
+
+            .split {
+            height: 100%;
+            width: 50%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            overflow-x: hidden;
+            padding-top: 20px;
+            }
+
+            .left {
+            left: 0;
+            background-color: #ECF0F1;
+            }
+
+            .right {
+            right: 0;
+            background-color: #ECF0F1;
+            }
+
+            .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            }
+
+            .button {
+                border: 2px solid transparent;
+                background: #3498DB;
+                color: #ECF0F1;
+                font-size: 16px;
+                line-height: 25px;
+                padding: 10px 0;
+                text-decoration: none;
+                text-shadow: none;
+                border-radius: 15px;
+                box-shadow: none;
+                transition: 0.25s;
+                display: block;
+                width: 250px;
+                margin: 0 auto;
+                cursor: pointer;
+            }
+
+            .topcentered{
+                position: absolute;
+                top:35%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+                background-color: #3498DB;
+                padding: 20px;
+                border-radius: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="split left">
+            <div class="topcentered">
+                <h1>Do you want to ScreenShare?</h1>
+            </div>
+            <div class="centered">
+                <a href="/screen" class="button">Yes, ScreenShare</a>
+                <!-- <h2>HI </h2> -->
+            </div>
+        </div>
+        <div class="split right">
+            <div class="topcentered">
+                <h1>Do you want to FileShare?</h1>
+            </div>
+            <div class="centered">
+                <a href="/upload" class="button">Yes, FileShare</a>
+                <!-- <h2>HELLO</h2> -->
+            </div>
+        </div>
+    </body>
+</html>
