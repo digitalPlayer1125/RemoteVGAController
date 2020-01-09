@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>
+        Presenting PPT
+    </title> 
+</head>
+<body>
+    Link to the Presentation: <input type="text" name="fname"><br>
+    <button onclick=" makeSearch();">Play Video</button>
+    <div id="chaneve">
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    function makeSearch() {
+        console.log($("input").val());
+        $("#chaneve").html($("input").val());
+    }
+    </script>
+</body>
+</html>
